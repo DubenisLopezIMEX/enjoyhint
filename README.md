@@ -113,6 +113,7 @@ var enjoyhint_script_steps = [
 
 
 
+
 #### Non-standard events:
 * `auto` - for example, you need to click on the same button on the second step imediatelly after the first step and go to the next step after it. Then you can use "auto" in the "event_type" property and "click" in "event" property.
 * `custom` - this value is very usefull if you need to go to the next step by event in your app code. For example, you want to go to the next step only after some data have been loaded in your application. Then you should use the "custom" event_type and the "trigger" method of the EnjoyHint instance.  
@@ -163,15 +164,10 @@ var enjoyhint_script_steps = [
 
 #### Release notes
 
-##### v.4
+##### v.5
 
-* Fix label position bugs
-* Fix arrow position bugs
-* Fix resize bugs
-* Add responsive design
-* Add mobile support
-* Add possibility to go back to previous step
-* Add possibility to select the color of a marker
+* Fix text property bugs
+* minor change of default style property for label
 
 
 
